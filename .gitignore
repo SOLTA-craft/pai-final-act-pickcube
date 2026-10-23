@@ -1,0 +1,36 @@
+# Local environment and caches
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Demos, outputs, trained weights, or videos (deliberately NOT bundled)
+data/
+demos/
+runs/
+results/
+exports/
+logs/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.mp4
+*.mov
+*.avi
+*.tfevents*
+*.npz
+*.npy
+
+# Credentials, local machine details
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+wandb/

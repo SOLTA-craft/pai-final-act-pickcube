@@ -1,0 +1,47 @@
+Loading HDF5 file data/PickCube-v1/motionplanning/act_pickcube_100.state.pd_ee_delta_pos.physx_cpu.h5
+Loaded
+Load observations 100 <class 'numpy.ndarray'>
+Load actions 100 <class 'numpy.ndarray'>
+Length of Dataset: 7720
+Training begins...
+Iteration 0, loss: 68.37313842773438
+Iteration 500, loss: 0.26320523023605347
+Evaluated 5 episodes
+success_once: 0.0000
+return: 0.0000
+episode_len: 150.0000
+reward: 0.0000
+success_at_end: 0.0000
+Iteration 1000, loss: 0.10881217569112778
+Iteration 1500, loss: 0.09618670493364334
+Evaluated 5 episodes
+success_once: 0.0000
+return: 0.0000
+episode_len: 150.0000
+reward: 0.0000
+success_at_end: 0.0000
+Iteration 2000, loss: 0.0729488730430603
+Iteration 2500, loss: 0.05920694023370743
+Evaluated 5 episodes
+success_once: 0.0000
+return: 0.0000
+episode_len: 150.0000
+reward: 0.0000
+success_at_end: 0.0000
+Iteration 3000, loss: 0.05398561432957649
+Iteration 3500, loss: 0.04574140906333923
+Evaluated 5 episodes
+success_once: 0.0000
+return: 0.0000
+episode_len: 150.0000
+reward: 0.0000
+success_at_end: 0.0000
+Iteration 4000, loss: 0.048789046704769135
+Iteration 4500, loss: 0.040662817656993866
+Evaluated 5 episodes
+success_once: 0.0000
+return: 0.0000
+episode_len: 150.0000
+reward: 0.0000
+success_at_end: 0.0000
+Iteration 5000, loss: 0.04425442963838577

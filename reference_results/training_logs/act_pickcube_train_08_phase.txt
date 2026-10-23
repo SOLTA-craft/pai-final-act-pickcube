@@ -1,0 +1,56 @@
+Loading HDF5 file data/PickCube-v1/motionplanning/act_pickcube_100.state.pd_ee_delta_pos.physx_cpu.h5
+Loaded
+Load observations 100 <class 'numpy.ndarray'>
+Load actions 100 <class 'numpy.ndarray'>
+Length of Dataset: 7720
+=== ACT-08 Sampling ===
+サンプル数: 7720
+標準重み: 5055
+重点重み: 2665
+重点倍率: 2.5
+Training begins...
+Iteration 0, loss: 68.6109390258789
+Iteration 500, loss: 0.3560931384563446
+Evaluated 5 episodes
+success_once: 0.0000
+return: 0.0000
+episode_len: 150.0000
+reward: 0.0000
+success_at_end: 0.0000
+Iteration 1000, loss: 0.1713775098323822
+Iteration 1500, loss: 0.12139661610126495
+Evaluated 5 episodes
+success_once: 0.0000
+return: 0.0000
+episode_len: 150.0000
+reward: 0.0000
+success_at_end: 0.0000
+Iteration 2000, loss: 0.10343097895383835
+Iteration 2500, loss: 0.08564092963933945
+Evaluated 5 episodes
+success_once: 0.6000
+return: 30.8000
+episode_len: 150.0000
+reward: 0.2053
+success_at_end: 0.6000
+New best success_once_rate: 0.6000. Saving checkpoint.
+New best success_at_end_rate: 0.6000. Saving checkpoint.
+Iteration 3000, loss: 0.07400088012218475
+Iteration 3500, loss: 0.06771362572908401
+Evaluated 5 episodes
+success_once: 1.0000
+return: 60.4000
+episode_len: 150.0000
+reward: 0.4027
+success_at_end: 0.8000
+New best success_once_rate: 1.0000. Saving checkpoint.
+New best success_at_end_rate: 0.8000. Saving checkpoint.
+Iteration 4000, loss: 0.06671261042356491
+Iteration 4500, loss: 0.06690435856580734
+Evaluated 5 episodes
+success_once: 0.4000
+return: 19.8000
+episode_len: 150.0000
+reward: 0.1320
+success_at_end: 0.4000
+Iteration 5000, loss: 0.06430932134389877
