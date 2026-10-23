@@ -2,7 +2,7 @@
 
 ManiSkill **3.0.1** の `PickCube-v1`（Franka Panda）で、Motion Planningから取得したデモを用い、ACT（Action Chunking Transformer）で状態観測から行動チャンクを予測する模倣学習を行いました。入力は **`state`**、制御は **`pd_ee_delta_pos`** であり、画像入力・実機検証は対象外です。
 
-> **公開準備版 / 2026-10-23。** このリポジトリには学習・評価コードと保存済みCSVがありますが、デモ本体（HDF5/JSON）と学習済みモデル（`.pt`）は**含まれません**。それらの入手先がない状態で、第三者が同一チェックポイントを推論・学習再現できるとは主張しません。以下では、**実行済みの検証**と**未検証の手順例**を区別します。
+> **提出用公開資料 / 2026-10-23。** このリポジトリには学習・評価コードと保存済みCSVがありますが、デモ本体（HDF5/JSON）と学習済みモデル（`.pt`）は**含まれません**。それらの入手先がない状態で、第三者が同一チェックポイントを推論・学習再現できるとは主張しません。以下では、**実行済みの検証**と**未検証の手順例**を区別します。
 
 ## 実験環境（実機上で確認した値）
 
@@ -149,7 +149,7 @@ python tools/verify_act08_4k_checkpoint.py \
 
 ## 公開動画・レポート・出典
 
-- 提出動画：**[公開後、YouTube URLを追記]**。最終採用は `PAI_ACT_final_video_v4_teacher_wording_20261023.mp4`（ユーザーが内容・表示を確認済み）。v3は提出対象外です。Motion Planningの例、ACT-06/07/08比較、ACT-08代表成功例を収録します。v4の正確な尺はアップロード前に確認します。
+- 提出動画：**[PAI最終課題_142463](https://youtu.be/kdLdKnrBnG4)**。最終採用は `PAI_ACT_final_video_v4_teacher_wording_20261023.mp4`（ユーザーが内容・表示を確認済み）。v3は提出対象外です。Motion Planningの例、ACT-06/07/08比較、ACT-08代表成功例を収録します。動画はユーザーがアップロードしました。Workでは公開動画の再生・尺・公開設定を未確認です。
 - PDF：omnicampusへ別途提出（GitHubでの公開は必須条件でない）。
 - ManiSkill: https://github.com/haosulab/ManiSkill
 - ACT baseline: https://github.com/haosulab/ManiSkill/tree/main/examples/baselines/act
